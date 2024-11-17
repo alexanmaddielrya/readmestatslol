@@ -1,5 +1,7 @@
 import { renderStatsCard } from "../src/cards/stats-card.js";
 import { blacklist } from "../src/common/blacklist.js";
+import { inject } from "@vercel/analytics"
+inject()
 import {
   clampValue,
   CONSTANTS,
